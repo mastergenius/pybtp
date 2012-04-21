@@ -1,9 +1,9 @@
 # Python api for btp (https://github.com/mambaru/btp-daemon)
 
 Example:
-import pybtp
 
 ```python
+import pybtp
 conn = pybtp.Connection('example.com', 22400)
 conn.connect()
 req = pybtp.Request(conn, 'btp.test')
